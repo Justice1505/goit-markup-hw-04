@@ -214,6 +214,11 @@ img {
   padding: 10px 30px;
   margin-top: 30px;
 }
+.button1:hover,
+.button1:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 /* наши преимущества */
 .features-container {
   padding-top: 94px;
@@ -522,6 +527,8 @@ img {
   cursor: pointer;
   border-color: transparent;
   border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .key {
   font-weight: 500;
@@ -557,7 +564,7 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   color: var(--title-color);
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 .example1-paragraph {
   font-size: 16px;
@@ -566,7 +573,7 @@ img {
   color: var(--under-color);
 }
 .exmp {
-  padding: 20px 24px;
+  padding: 20px 20px;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
